@@ -1,0 +1,108 @@
+
+@media (min-width: 690px) {
+ul.menu {
+    list-style-type: none;
+    display: flex;
+    background-color: #e61432;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1vw;
+    height: 3vw;
+    font-family: robot;
+    font-weight: bold;
+    letter-spacing: -0.05vw;
+    position: sticky !important;
+    top: 0px;
+}
+
+ul.menu li {
+    width: 14%;
+    position: relative;
+}
+
+ul.menu>li{
+    
+    border-right: solid 0.1vw white;    
+    text-align: center;
+
+}
+ul.menu>li:first-child{
+    border-left: solid 0.1vw white;
+}        
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    width: 100%;
+    border: solid 0.1vw rgb(191, 187, 187);
+    background-color: white;
+    padding: 0;
+    font-family: philosopher;
+    
+}
+ul.submenu li{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 5% 0;
+    text-align: left;
+    font-size: 1.1vw;
+    letter-spacing: normal;
+    margin: 0 auto;
+    font-family: philosopher;
+    
+}
+ul.submenu li:not(:first-child):not(:last-child)::after{
+    content: "";
+    background-color: black;
+    /* height: 2px; */
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 1px solid;
+    
+}
+ul.submenu li:first-child{
+    text-align: center;
+    
+}
+ul.submenu li:last-child{
+    padding-bottom: 10%;
+
+}
+
+ul.menu li:hover>.submenu {
+    display: block;
+}
+
+ul.menu a:link,ul.menu a:hover,ul.menu a:active,ul.menu a:visited{
+    text-decoration: none;
+    color: white;
+}
+ul.submenu a:link,ul.submenu a:hover,ul.submenu a:active,ul.submenu a:visited{
+    color: black;
+}
+.menu-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: philosopher;
+    /* height: 5vw; */
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.1vw;
+}
+.menu-bottom div{
+    width: 14%;
+    padding: 1% 1%;
+    text-align: center;
+    font-size: medium;    
+}
+.menu-bottom div a:link,.menu-bottom div a:visited{
+    text-decoration: none;
+    color: #1b1516;
+}
+}

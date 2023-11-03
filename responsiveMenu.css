@@ -1,0 +1,133 @@
+@media (max-width: 690px) {
+    header{
+      display: none !important;
+    }
+    .menu-bottom{
+      display: none !important;
+    }
+
+    .resNav {
+        display: block;
+        background-color: #e61432;
+        width: 100%;
+        color: #fff;
+
+      }
+  
+      .mainNav {
+        display: flex;
+        padding: 15px;
+      }
+  
+      .mainNav div:nth-child(2) {
+        text-align: right;
+        width: 50%;
+      }
+  
+      .mainNav div:nth-child(1) {
+        width: 50%;
+        font-family: Muller;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: #fee542;
+        text-decoration-style: wavy;
+        transform: rotate(-5deg);
+      }
+  
+      .mainNav div label {
+        padding: 1.5%;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+      
+      ul.menu{
+        z-index: 999;
+        position: absolute;
+        cursor: pointer;
+        line-height: 1.5;
+        font-size: 3vw;
+        border: solid 1px #696666;
+      }
+      .resNav>ul {
+        list-style-type: none;
+        display: none;
+        background-color: #fff;
+        text-align: left;
+        width: 100%;
+      }
+      
+      .resNav ul.submenu{
+        list-style-type: none;
+        display: none;
+      }
+      .submenu li{
+        background-color: #cac9c9;
+        border-top: 1px solid #ebebeb;
+        border-bottom: 1px solid #ebebeb;
+        line-height: 3;
+      }
+      .submenu li:hover{
+        text-decoration: underline;
+        color: #000;
+      }
+      
+      .submenu li:first-child{
+        display: none;
+      }
+      ul.menu> li {
+        width: 100%;
+        text-align: left;
+        line-height: 2;
+        /* border-bottom:solid 1px #fff; */
+        border-top: 1px solid #ebebeb;
+        border-bottom: 1px solid #ebebeb;
+        padding: 0;
+      }
+      
+      .resNav ul li a {
+        text-decoration: none;
+        color: #000;  
+        font-size: 16px;
+        font-weight: bold;
+        font-family: robot;
+        padding: 15px;
+      }
+  
+      #search-menu,
+      #contact-menu {
+        display: none;
+      }
+      #search-menu input[type="text"]{
+        width: 70%;
+        margin: 0 0 5px 5px;
+        padding: 2%;
+        box-sizing: border-box;
+          border: solid 1px rgb(194, 186, 186);
+          border-radius: 0.4rem 0 0 0.4rem;
+      }
+      #search-menu button{
+        width: 10%;
+        box-sizing: border-box;
+          border: solid 1px rgb(194, 186, 186);
+          border-radius: 0 0.4rem 0.4rem 0;
+          background-color: white; 
+          margin: 0;
+          padding: 2%;  
+          color: #e61432;
+          cursor: pointer;
+      } 
+      #contact-menu{
+        padding: 2%;
+        text-align: justify;
+        border: solid 2px #fff;
+      }
+      #contact-menu h3{
+        padding: 0 0 2% 0;
+        font-family:Muller ;
+      }
+      #contact-menu p{
+        font-family: sans-serif;
+
+      }
+  }

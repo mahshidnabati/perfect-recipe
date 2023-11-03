@@ -1,0 +1,35 @@
+@font-face {
+    font-family: philosopher;
+    src: url(fonts/Philosopher-Regular.ttf);
+}
+@font-face {
+    font-family: robot;
+    src: url(fonts/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoCondensed-Light;
+    src: url(fonts/RobotoCondensed-Light.ttf);
+}
+@font-face {
+    font-family: RobotoCondensed-Regular;
+    src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: CormorantGaramond-Light;
+    src: url(fonts/CormorantGaramond-Light.ttf);
+}
+@font-face {
+    font-family: MartelSans-SemiBold;
+    src: url(fonts/MartelSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Medium'), local('Muller-Medium'),
+        url('fonts/MullerMedium.woff2') format('woff2'),
+        url('fonts/MullerMedium.woff') format('woff'),
+        url('fonts/MullerMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55'); */
+  
