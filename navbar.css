@@ -10,7 +10,7 @@ ul.menu {
     height: 3vw;
     font-family: robot;
     font-weight: bold;
-    letter-spacing: -0.05vw;
+    /* letter-spacing: -0.05vw; */
     position: sticky !important;
     top: 0px;
 }
