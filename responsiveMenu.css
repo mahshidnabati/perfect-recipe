@@ -5,6 +5,10 @@
     .menu-bottom{
       display: none !important;
     }
+    
+    .slide h2{
+      font-size: medium;
+    }
 
     .resNav {
         display: block;
